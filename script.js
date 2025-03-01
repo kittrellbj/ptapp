@@ -93,14 +93,15 @@ function getScoreFromTime(dataArr, userTime) {
 
 function getScoreFromReps(dataArr, userReps) {
     if (!dataArr || isNaN(userReps)) return null;
-    // dataArr is sorted descending by Reps
+    // dataArr is sorted descending by Reps: 78, 77, 76... 1
     for (let item of dataArr) {
-      if (item.Reps <= userReps) {
+      if (userReps >= item.Reps) {
         return item.Score;
       }
     }
+    // If userReps is less than the lowest item, return that
     return dataArr[dataArr.length - 1].Score;
-  }
+  }  
 
 // icon logic
 function getIcon(score) {
