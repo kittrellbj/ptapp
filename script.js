@@ -93,16 +93,15 @@ function getScoreFromTime(dataArr, userTime) {
 
 // finds best matching reps from JSON
 function getScoreFromReps(dataArr, userReps) {
-  if (!dataArr || isNaN(userReps)) return null;
-  let bestScore = null;
-  // find the entry whose Reps <= userReps or the closest match
-  for (let item of dataArr) {
-    if (item.Reps <= userReps) {
-      bestScore = item.Score;
+    if (!dataArr || isNaN(userReps)) return null;
+    // assume dataArr is sorted descending by Reps
+    for (let i = dataArr.length - 1; i >= 0; i--) {
+      if (userReps >= dataArr[i].Reps) {
+        return dataArr[i].Score;
+      }
     }
-  }
-  return bestScore !== null ? bestScore : dataArr[0].Score;
-}
+    return dataArr[dataArr.length - 1].Score;
+  }  
 
 // icon logic
 function getIcon(score) {
