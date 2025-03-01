@@ -13,3 +13,5 @@ Trainers may enter the time to complete each event for a given candidate by ente
 ### System Design
 
 The calculator was designed to be a web page application and a Progressive Web Application (PWA) such that instructors and trainers can have access anytime, anywhere, with or without Internet connectivity. It was written in HTML, CSS, and JavaScript, and the data sources from MLEOTA's qualification times were converted to JSON data structures for easier lookup in code.
+
+Python scripts were written to extract the qualification data from Excel spreadsheets that had been condensed into CSV key-value pairs by group.
