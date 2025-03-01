@@ -18,4 +18,4 @@ Python scripts were written to extract the qualification data from Excel spreads
 
 ### Dedication 
 
-This app is dedicated to the memory of [https://www.odmp.org/officer/27337-deputy-sergeant-martin-shields-jr](Deputy Sergeant Martin Shields, Jr.) of the Hinds County Sheriff's Department. He was killed on February 23rd, 2025, when he responded to a domestic violence call. He was 37 years old.  He was and will always be my friend.
+This app is dedicated to the memory of [Deputy Sergeant Martin Shields, Jr.](https://www.odmp.org/officer/27337-deputy-sergeant-martin-shields-jr) of the Hinds County Sheriff's Department. He was killed on February 23rd, 2025, when he responded to a domestic violence call. He was 37 years old.  He was and will always be my friend.
