@@ -4,7 +4,7 @@ The PT Calculator (PTApp) was created for trainers for or in association with th
 
 ### Features
 
-Trainers may enter the time to complete each event for a given candidate by entering the age and gender of the candidate, along with the times in the respective input fields. When the trainer hits calculate, the scores are determined and provided in percentile to the trainer. For at-a-glance judgements, the calculator also provides quick results:
+Trainers may enter the time taken by a candidate to complete each event by entering the age and gender of the candidate, along with the times in the respective input fields. When the trainer hits calculate, the scores are determined and provided in percentile to the trainer. For at-a-glance judgements, the calculator also provides quick results:
 
 - The green checkmark indicates that a candidate meets entrance qualification time (50% score) and also meets academy graduation time (70% score). The candidate should have no trouble in this event area.
 - The yellow checkmark indicates that a candidate meets entrance qualification time (50% score), but the candidate does not yet meet academy graduation time (70% score). This is an area where the candidate should invest additional time and effort.
@@ -18,4 +18,4 @@ Python scripts were written to extract the qualification data from Excel spreads
 
 ### Dedication 
 
-This app is dedicated to the memory of (https://www.odmp.org/officer/27337-deputy-sergeant-martin-shields-jr)[Deputy Sergeant Martin Shields, Jr.] of the Hinds County Sheriff's Department. He was killed on February 23rd, 2025, when he responded to a domestic violence call. He was 37 years old.  He was and will always be my friend.
+This app is dedicated to the memory of [https://www.odmp.org/officer/27337-deputy-sergeant-martin-shields-jr](Deputy Sergeant Martin Shields, Jr.) of the Hinds County Sheriff's Department. He was killed on February 23rd, 2025, when he responded to a domestic violence call. He was 37 years old.  He was and will always be my friend.
