@@ -15,3 +15,7 @@ Trainers may enter the time to complete each event for a given candidate by ente
 The calculator was designed to be a web page application and a Progressive Web Application (PWA) such that instructors and trainers can have access anytime, anywhere, with or without Internet connectivity. It was written in HTML, CSS, and JavaScript, and the data sources from MLEOTA's qualification times were converted to JSON data structures for easier lookup in code.
 
 Python scripts were written to extract the qualification data from Excel spreadsheets that had been condensed into CSV key-value pairs by group. The preparation scripts and CSV files are provided in /exclude/ to demonstrate how the JSON data sources were constructed.
+
+### Dedication 
+
+This app is dedicated to the memory of (https://www.odmp.org/officer/27337-deputy-sergeant-martin-shields-jr)[Deputy Sergeant Martin Shields, Jr.] of the Hinds County Sheriff's Department. He was killed on February 23rd, 2025, when he responded to a domestic violence call. He was 37 years old.  He was and will always be my friend.
